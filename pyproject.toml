@@ -1,0 +1,18 @@
+[project]
+name = "template"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "pydantic>=2.11.2",
+]
+
+[dependency-groups]
+dev = [
+    "coverage>=7.8.0",
+    "isort>=6.0.1",
+    "mypy>=1.15.0",
+    "pytest>=8.3.5",
+    "ruff>=0.11.3",
+]
